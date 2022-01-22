@@ -49,6 +49,8 @@ call plug#begin(nvim_config_dir.'plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'lewis6991/gitsigns.nvim'
     " Highlight syntax
     Plug 'jaxbot/semantic-highlight.vim'
     Plug 'jackguo380/vim-lsp-cxx-highlight'
@@ -68,4 +70,5 @@ source $HOME/AppData/Local/nvim/plug-config/fzf.vim
 luafile $HOME/AppData/Local/nvim/lua/plug-colorizer.lua
 source $HOME/AppData/Local/nvim/plug-config/rainbow.vim
 source $HOME/AppData/Local/nvim/plug-config/signify.vim
+luafile $HOME/AppData/Local/nvim/lua/gitsigns.lua
 
